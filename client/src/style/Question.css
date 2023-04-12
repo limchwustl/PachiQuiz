@@ -1,0 +1,12 @@
+.choices{
+    padding:5px 15px; 
+    background: #fffffe; 
+    border-radius:10px;
+    border: 2px solid #00DDFF;
+    cursor:pointer;
+    color:#010101;
+}
+.choices:hover{
+    background-color: #00DDFF;
+    color:#fffffe;
+}

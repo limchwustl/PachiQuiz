@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Acre;
+    src: url(../assets/fonts/Jonathan\ Ball\ -\ Acre-Medium.otf);
+}
+.pokedex-name{
+    font-family: "Acre";
+    text-align: center;
+    
+}
+.pokedex-pokemon-img{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height:10rem;
+}
+h2{
+    font-family: "Acre";
+}
+.scrollScreen{
+    background-color: #010101;
+    margin-left:2rem;
+    margin-top:2rem;
+    width:20rem;
+    height:20rem;
+    border-radius:10px;
+    border:20px;
+}
+ .pokedex-container{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    margin-left:auto;
+    margin-right: auto;
+    width:70rem;
+    height:24rem;
+    border-radius:10px;
+    border:20px;
+    box-shadow:4px 4px 5px
+    rgba(0,0,0,0.1);
+    border-color: #fffffe;
+    background-color: #ff1d58;
+    
+ }
+ .screen{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: #fffffe;
+    margin-left:2rem;
+    margin-top:2rem;
+    width:20rem;
+    height:20rem;
+    border-radius:10px;
+    border:20px;
+ }
+
+nav ul{
+    color:white;
+    height:16rem; width:100%;
+
+
+}
+.pokedex-cry-btn{
+   
+}
+#search-bar{
+    width:60%;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+nav ul{overflow:hidden; overflow-y: scroll;}

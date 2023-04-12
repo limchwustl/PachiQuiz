@@ -1,0 +1,36 @@
+.friends-container{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    margin-left:auto;
+    margin-right: auto;
+    width:52rem;
+    height:30rem;
+    border-radius:10px;
+    border:20px;
+    box-shadow:4px 4px 5px
+    rgba(0,0,0,0.1);
+    border-color: #fffffe;
+    background-color: #00DDFF;
+ }
+ .request-form{
+    display: inline-block;
+    overflow: scroll;
+ }
+ .request-btn{
+    padding:5px 15px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white; 
+    border-radius:10px;
+    border: 2px solid #00DDFF;
+    cursor:pointer;
+    color:#00DDFF;
+ }
+.friend-li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.user-request-container{
+    display:flex;
+    justify-content: space-between;
+}

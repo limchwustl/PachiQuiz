@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Fredoka;
+    src: url(../assets/fonts/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Acre;
+    src: url(../assets/fonts/Jonathan\ Ball\ -\ Acre-Medium.otf);
+}
+
+.logo{
+    height:100%;
+    width:auto;
+}
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    background: #fff685;
+    height:5rem;
+    width:100%;
+   
+    position:absolute;
+    top:0;left:0;
+    
+}
+.welcome-message{
+    text-decoration: none;
+    color:black;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    font-size: 16px;
+}
+.title-container{
+    display:flex;
+
+}
+.right-container{
+    display:flex;
+    column-gap: 1rem;
+    justify-content: space-evenly;
+}
+.title{
+    margin-left: 20px;
+    font-family: 'Fredoka';
+    color:#00DDFF;
+    margin-top:1rem;
+   
+}
+
+ .sub-links-container{
+    display: flex;
+    margin-top: 2rem;
+    margin-right:2rem;
+    font-family: 'Acre';
+   
+    column-gap: 20px;
+ }

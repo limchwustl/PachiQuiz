@@ -1,0 +1,24 @@
+table {
+    table-layout:fixed;
+  }
+
+th{
+    font-size: 1.5rem;
+}
+td{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.score-td{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid white;
+}
+th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid white;
+}
+tbody{
+  
+    overflow-x:auto;
+
+
+  }

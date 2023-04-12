@@ -1,0 +1,40 @@
+@font-face {
+   font-family: Acre;
+   src: url(../assets/fonts/Jonathan\ Ball\ -\ Acre-Medium.otf);
+}
+.signin-container{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    margin-left:auto;
+    margin-right: auto;
+    width:52rem;
+    height:30rem;
+    border-radius:10px;
+    border:20px;
+    box-shadow:4px 4px 5px
+    rgba(0,0,0,0.1);
+    border-color: #fffffe;
+    background-color: #fffffe;
+    
+ }
+ label{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #signin-btn{
+    padding:5px 15px; 
+    background: #00DDFF; 
+    border-radius:10px;
+    border: 2px solid #00DDFF;
+    cursor:pointer;
+    color:#fffffe;
+ }
+ .signin-header{
+   font-family: Acre;
+ }
+ .signin-form{ 
+    display:flex; 
+    margin-top:5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    flex-direction: column;
+}
